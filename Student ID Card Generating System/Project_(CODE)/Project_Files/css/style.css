@@ -1,0 +1,93 @@
+form {
+  background: #ffffff url(/im/stu_form_color.jpg) center center/cover no-repeat;
+  padding: 20px;
+  align-self: center;
+  border-radius: 43px 0px 43px 0px;
+  font-size: 140%;
+  width: 50%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;  
+  /* backdrop-filter: blur(30px); */
+}
+
+.center {
+  background: #ffffff url(/im/stu_form_color.jpg) center center/cover no-repeat;
+  padding: 20px;
+  align-self: center;
+  border-radius: 43px 0px 43px 0px;
+  font-size: 140%;
+  width: 50%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;  
+  /* backdrop-filter: blur(30px); */
+}
+
+
+label {
+  
+  display: block;
+  margin-bottom: 8px;
+  color: #ffffff;
+  text-align: left;
+  width: 550px;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+input[type="date"],
+input[type="file"],
+input[type="phone"],
+textarea {
+  width: 80%;
+  padding: 8px ;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  border-color: #000000;
+}
+
+input[type="submit"] {
+  background: #ffffff url(/im/red_button.jpg) center center/cover no-repeat;
+  color: #ffffff;
+  padding: 10px 60px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size:20px;
+  
+}
+
+input[type="submit"]:hover {
+  background: #ffffff url(/im/green_button.jpg) center center/cover no-repeat;
+}
+
+.stu_data {
+  display: flex;
+  flex-direction: column;
+}
+
+.input1 {
+  display: flex;
+  width: 100%;
+  margin: 3px;
+}
+
+h1 {
+  text-align: center;
+  background: linear-gradient(to left, rgb(182, 0, 182), rgb(255, 0, 0));
+  background-clip: text;
+ color: transparent;
+ font-size: 40px;
+ padding: auto;
+ 
+
+}
+
+textarea{
+  text-align: left;
+}
